@@ -52,8 +52,6 @@ public class Ejercicio1 {
             System.err.println("Error al leer el fichero" );
         }
     }
-
-
         private static void crearFichero(Scanner scanner) {
             try (DataOutputStream dos = new DataOutputStream(new FileOutputStream(NOMBREARCHIVO))) {
                 System.out.print("Introduce nombre: ");
@@ -74,9 +72,6 @@ public class Ejercicio1 {
                 System.err.println("Error. ");
             }
         }
-
-
-
     }
 
 
