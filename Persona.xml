@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Personas><Persona><Nombre>juan</Nombre><Edad>86</Edad><Ciudad>Ubeda</Ciudad></Persona><Persona><Nombre>jose</Nombre><Edad>25</Edad><Ciudad>Ubeda</Ciudad></Persona></Personas>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Personas>
+    <Persona>
+        <Nombre>juan</Nombre>
+        <Edad>86</Edad>
+        <Ciudad>Ubeda</Ciudad>
+    </Persona>
+    <Persona>
+        <Nombre>jose</Nombre>
+        <Edad>25</Edad>
+        <Ciudad>Ubeda</Ciudad>
+    </Persona>
+</Personas>
