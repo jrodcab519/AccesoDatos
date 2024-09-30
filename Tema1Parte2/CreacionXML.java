@@ -30,9 +30,9 @@ public class CreacionXML {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(NOMBREARCHIVO))) {
             personas = (List<Persona>) ois.readObject();
         } catch (EOFException e) {
-            System.out.println("El archivo está vacío.");
+            System.out.println("Archivo  vacío.");
         } catch (FileNotFoundException e) {
-            System.out.println("El archivo no existe.");
+            System.out.println("No existe archivo.");
         } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
@@ -71,8 +71,7 @@ public class CreacionXML {
             DOMSource source = new DOMSource(doc);
             StreamResult result = new StreamResult("Persona.xml");
             transformer.transform(source, result);
-
-            System.out.println("Fichero XML creado con éxito.");
+            ;
         } catch (Exception e) {
             e.printStackTrace();
         }
