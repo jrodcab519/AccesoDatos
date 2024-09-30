@@ -24,7 +24,6 @@ public class LecturaXML {
                 System.out.println("Nombre: " + personaElement.getElementsByTagName("Nombre").item(0).getTextContent());
                 System.out.println("Edad: " + personaElement.getElementsByTagName("Edad").item(0).getTextContent());
                 System.out.println("Ciudad: " + personaElement.getElementsByTagName("Ciudad").item(0).getTextContent());
-                System.out.println("------------");
             }
         } catch (Exception e) {
             e.printStackTrace();
